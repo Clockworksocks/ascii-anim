@@ -18,7 +18,7 @@ let asciiDiv;
 function setup() {
   noCanvas();
   vid = createVideo("bunny.mp4");
-  vid.size(128, 96);
+  vid.size(150, 50);
   vid.loop();
   vid.hide();
   asciiDiv = createDiv();
